@@ -19,7 +19,7 @@ export class BuscarTerminoComponent implements OnInit {
     public definiciones: string[] = [];
 
     // Formulario
-    @ViewChild('formulario')
+    @ViewChild('formulario', {static: true})
     public formulario: NgForm;
 
     public constructor(

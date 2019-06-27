@@ -6,7 +6,7 @@ import { FormularioGuard } from './guards/formulario.guard';
 
 const routes: Routes = [
   {
-    path: 'formulario',
+    path: '',
     component: FormularioComponent,
     canActivate: [FormularioGuard]
   },
